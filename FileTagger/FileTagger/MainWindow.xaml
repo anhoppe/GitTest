@@ -14,6 +14,6 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" FontStyle="Italic"> Hello, world ...</TextBlock>
         <TextBlock Grid.Row="1" FontStyle="Oblique">This is very important stuff</TextBlock>
-        <Button Grid.Row="2" >Click Me!</Button>
+        <Button Grid.Row="2" Click="ButtonBase_OnClick"    >Click Me!</Button>
     </Grid>
 </Window>
