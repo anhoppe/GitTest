@@ -10,8 +10,10 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Button Grid.Row="0">Click Me!</Button>
-        <TextBlock Grid.Row="1">Hello, world</TextBlock>
+        <TextBlock Grid.Row="0" FontStyle="Italic"> Hello, world</TextBlock>
+        <TextBlock Grid.Row="1" FontStyle="Oblique">This is important stuff</TextBlock>
+        <Button Grid.Row="2" >Click Me!</Button>
     </Grid>
 </Window>
