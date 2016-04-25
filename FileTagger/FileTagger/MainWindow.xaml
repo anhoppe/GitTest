@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <TextBlock FontStyle="Italic"> Hello, world</TextBlock>
+        <TextBlock FontStyle="Oblique">This is important stuff</TextBlock>
         <Button>Click Me!</Button>
-        <TextBlock>Hello, world</TextBlock>
     </Grid>
 </Window>
