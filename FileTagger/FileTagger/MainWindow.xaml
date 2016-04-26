@@ -17,7 +17,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Grid.Column="0" FontStyle="Italic"> Hello, world...</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="0" FontStyle="Oblique">This is very important stuff</TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" FontStyle="Oblique">This is very very important stuff</TextBlock>
         <Button Grid.Row="2" Grid.Column="0" Click="ButtonBase_OnClick">Click Me!</Button>
         <ListBox Grid.Row="0" Grid.RowSpan="3" Grid.Column="1"></ListBox>
     </Grid>
